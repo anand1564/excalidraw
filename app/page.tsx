@@ -1,7 +1,11 @@
-import Image from "next/image";
+// pages/index.js
+import Canvas from "@/components/canvas";
 
 export default function Home() {
   return (
-    <p>Hello World</p>
+    <div>
+      <h1>Excalidraw Clone</h1>
+      <Canvas />
+    </div>
   );
 }
